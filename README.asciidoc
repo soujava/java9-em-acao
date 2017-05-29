@@ -1,0 +1,40 @@
+= Java 9 - O que é realmente bom, e o que não é
+Cesar A. Nogueira <contato@cesarnogueira.me>
+
+== Introdução
+This repository & RevealJS HTML slide presentation tries to give an overview
+over the improvments coming with Java 9.
+
+Este repositório contém uma apresentação HTML RevelJS que tenta dar uma visão geral
+sobre as melhorias que virão com Java 9 para a plataforma Java.
+
+Baseado no estado atual de 2017-03-28
+
+== Conteúdo
+
+[cols="1,3"]
+|===
+|`presentation`         | A short RevealJS based presentation. Just open `index.html`
+|`playground`           | Example code.
+|`playground-dependent` | Another Jigsaw module depending on `playground` and
+      demonstrating Service Provider with modules.
+|`run-with-modules`     | Bash script demonstrating how to compile & run the example
+      as modules using the new Java9 command line parameters
+|===
+
+== Como começar
+1. Instale o Java 9 EAP
+2. Ensure `JAVA_HOME` and `PATH` points to Java 9
+3. Open project with IntelliJ IDEA 2016.2+ or run `run-with-modules`
+
+----
+$ env | grep JAVA_HOME
+JAVA_HOME=/usr/lib/jvm/java-9-oracle
+$ javac -version
+javac 9-ea
+$ java -version
+java version "9-ea"
+Java(TM) SE Runtime Environment (build 9-ea+123)
+Java HotSpot(TM) 64-Bit Server VM (build 9-ea+123, mixed mode)
+----
+
