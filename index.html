@@ -14,26 +14,26 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="/presentation/css/reveal.css">
-    <link rel="stylesheet" href="/presentation/css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="presentation/css/reveal.css">
+    <link rel="stylesheet" href="presentation/css/theme/black.css" id="theme">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="/presentation/lib/css/zenburn.css">
+    <link rel="stylesheet" href="presentation/lib/css/zenburn.css">
 
     <!-- Custom, overriding CSS -->
-    <link rel="stylesheet" href="/presentation/css/custom.css">
+    <link rel="stylesheet" href="presentation/css/custom.css">
 
     <!-- Printing and PDF exports -->
     <script>
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'presentation/css/print/pdf.css' : 'presentation/css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
     <!--[if lt IE 9]>
-    <script src="lib/js/html5shiv.js"></script>
+    <script src="presentation/lib/js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
@@ -70,7 +70,7 @@
                 <div class="profile" style="position: absolute; top: 150px; left: 800px">
                     <div class="profile-sidebar">
                         <div class="profile-userpic">
-                            <img data-src="img/BenjaminSchmid.jpg" class="img-responsive" alt="">
+                            <img data-src="presentation/img/BenjaminSchmid.jpg" class="img-responsive" alt="">
                         </div>
                         <div class="profile-usertitle">
                             <div class="profile-usertitle-name">
@@ -206,7 +206,7 @@
 
             <section>
                 <h3>Exemplo de uma busca no HTML5 Javadoc</h3>
-                <img src="img/javadoc-html5-example.png" alt="Example Java 9 Javadoc output with HTML5 enabled">
+                <img src="presentation/img/javadoc-html5-example.png" alt="Example Java 9 Javadoc output with HTML5 enabled">
             </section>
 
 
@@ -622,8 +622,8 @@
     </div>
 </div>
 
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
+<script src="presentation/lib/js/head.min.js"></script>
+<script src="presentation/js/reveal.js"></script>
 
 <script>
 
@@ -701,7 +701,7 @@
                           viewDistance: 3,
 
                           // Parallax background image
-                          parallaxBackgroundImage: 'img/puzzle.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+                          parallaxBackgroundImage: 'presentation/img/puzzle.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
 
                           // Parallax background size
                           parallaxBackgroundSize: '1600px 1200px', // CSS syntax, e.g. "2100px 900px"
@@ -730,29 +730,29 @@
                           // Optional reveal.js plugins
                           dependencies: [
                               {
-                                  src: 'lib/js/classList.js', condition: function () {
+                                  src: 'presentation/lib/js/classList.js', condition: function () {
                                   return !document.body.classList;
                               }
                               },
                               {
-                                  src: 'plugin/markdown/marked.js', condition: function () {
+                                  src: 'presentation/plugin/markdown/marked.js', condition: function () {
                                   return !!document.querySelector('[data-markdown]');
                               }
                               },
                               {
-                                  src: 'plugin/markdown/markdown.js', condition: function () {
+                                  src: 'presentation/plugin/markdown/markdown.js', condition: function () {
                                   return !!document.querySelector('[data-markdown]');
                               }
                               },
                               {
-                                  src: 'plugin/highlight/highlight.js', async: true, condition: function () {
+                                  src: 'presentation/plugin/highlight/highlight.js', async: true, condition: function () {
                                   return true;
                               }, callback: function () {
                                   hljs.initHighlightingOnLoad();
                               }
                               },
-                              {src: 'plugin/zoom-js/zoom.js', async: true},
-                              {src: 'plugin/notes/notes.js', async: true}
+                              {src: 'presentation/plugin/zoom-js/zoom.js', async: true},
+                              {src: 'presentation/plugin/notes/notes.js', async: true}
                           ]
                       });
 
