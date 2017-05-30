@@ -4,8 +4,8 @@ SouJava <https://soujava.org.br/>
 == Colaboradores
 Esse material está sendo traduzido. E para isso, conta com a colaboração de:
 
-* [Cesar A. Nogueira](https://github.com/cesarnog "Github")
-* [Thiago Nascimento](https://github.com/thiagonascimentorj "Github") 
+- [Cesar A Nogueira](https://github.com/cesarnog "Github")
+- [Thiago Nascimento](https://github.com/thiagonascimentorj "Github") 
 
 == Introdução
 
