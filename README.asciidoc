@@ -1,6 +1,12 @@
 = Java 9 - O que é realmente bom, e o que não é
 SouJava <https://soujava.org.br/>
 
+== Colaboradores
+Esse material está sendo traduzido. E para isso, conta com a colaboração de:
+
+Nome: Cesar Nogueira              Github:
+Nome: Thiago Nascimento           Github: https://github.com/thiagonascimentorj
+
 == Introdução
 
 Este repositório contém uma apresentação com RevelJS e tenta dar uma visão geral
